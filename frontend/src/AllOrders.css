@@ -1,0 +1,55 @@
+/* AllOrders.css */
+
+.orders-container {
+    font-family: Arial, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2, h3 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: center;
+    padding: 12px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.orders-table img {
+    display: block;
+    margin: 0 auto;
+}
+
+strong p {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 5%;
+}

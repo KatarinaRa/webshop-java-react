@@ -1,0 +1,57 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .profile-jumbotron {
+    width: 70%;
+    padding: 2rem 1rem;
+    background-color: #ffffff;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fade-in 1s ease-in-out;
+  }
+  
+  .profile-header {
+    font-size: 1.5rem;
+    color: #333333;
+  }
+  
+  .profile-lead {
+    font-size: 1.2rem;
+    color: #666666;
+  }
+  
+  .profile-list {
+    list-style-type: none;
+    padding-left: 0;
+    color: #555555;
+  }
+  
+  .profile-list li::before {
+    content: "•";
+    margin-right: 8px;
+  }
+  
+  .profile-quote {
+    font-size: 1.2rem;
+    color: #444444;
+    font-weight: bold;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

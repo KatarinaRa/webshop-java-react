@@ -1,0 +1,38 @@
+.login-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1x solid #ccc;
+    border-radius: 30px;
+  }
+  
+  .loginfont{
+    text-align: center;
+    margin-top: 10px;
+
+
+  }
+  
+  .login-button {
+    width: 5%;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #f5deb3;
+    border: none;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #a0988a;
+  }

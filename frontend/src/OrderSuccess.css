@@ -1,0 +1,31 @@
+/* OrderSuccess.css */
+.order-success-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .order-success-message {
+    background: #808080; /* grey background */
+    border: 2px solid #FFFFFF; /* white border */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #FFFFFF; /* white text */
+    width: 60%;
+    border-radius: 15px; /* rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* shadow effect */
+  }
+  
+  .order-success-message h2 {
+    margin-bottom: 20px;
+    font-size: 2rem; /* larger text for title */
+  }
+  
+  .order-success-message p {
+    font-size: 1.2rem;
+  }
+  
